@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakCanary", "LeakCanary\LeakCanary.csproj", "{2DE2C880-DF3D-48C1-A32A-451F75609AAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App1", "App1\App1.csproj", "{17595B84-4615-4003-BDBB-0BD653F8BF26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakCanary.Analyzer", "LeakCanary.Analyzer\LeakCanary.Analyzer.csproj", "{14011267-592C-4826-A16B-4D48282EA6FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakCanary.Haha", "LeakCanary.Haha\LeakCanary.Haha.csproj", "{F3101923-C4B5-4EB1-96E0-72D502235E93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeakCanary.Watcher", "LeakCanary.Watcher\LeakCanary.Watcher.csproj", "{AC3C6A41-FFCD-455E-967C-7A14E9000EDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DE2C880-DF3D-48C1-A32A-451F75609AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE2C880-DF3D-48C1-A32A-451F75609AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE2C880-DF3D-48C1-A32A-451F75609AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE2C880-DF3D-48C1-A32A-451F75609AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17595B84-4615-4003-BDBB-0BD653F8BF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17595B84-4615-4003-BDBB-0BD653F8BF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17595B84-4615-4003-BDBB-0BD653F8BF26}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{17595B84-4615-4003-BDBB-0BD653F8BF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17595B84-4615-4003-BDBB-0BD653F8BF26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17595B84-4615-4003-BDBB-0BD653F8BF26}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{14011267-592C-4826-A16B-4D48282EA6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14011267-592C-4826-A16B-4D48282EA6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14011267-592C-4826-A16B-4D48282EA6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14011267-592C-4826-A16B-4D48282EA6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3101923-C4B5-4EB1-96E0-72D502235E93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3101923-C4B5-4EB1-96E0-72D502235E93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3101923-C4B5-4EB1-96E0-72D502235E93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3101923-C4B5-4EB1-96E0-72D502235E93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3C6A41-FFCD-455E-967C-7A14E9000EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3C6A41-FFCD-455E-967C-7A14E9000EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3C6A41-FFCD-455E-967C-7A14E9000EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3C6A41-FFCD-455E-967C-7A14E9000EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

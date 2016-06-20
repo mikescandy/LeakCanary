@@ -1,0 +1,29 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+
+  <!--<attr path="/api/package[@name='com.squareup.leakcanary']/class[@name='ExcludedRefs.Builder']" name="visibility">public</attr>-->
+<!--	<attr path="api/package[@name='com.squareup.leakcanary']/class[@name='AbstractAnalysisResultService']" name="extends">mono.android.app.Intentservice</attr>
+	<attr path="api/package[@name='com.squareup.leakcanary.Internal']/class[@name='HeapAnalyzerService']" name="extends">mono.android.app.Intentservice</attr>
+	-->
+	<!-- Have IBeaconIntentProcessor extend mono.android.app.IntentService instead of android.app.IntentService -->
+<attr path="/api/package[@name='com.squareup.leakcanary']/class[@name='AbstractAnalysisResultService' and @extends='android.app.IntentService']" name="extends">mono.android.app.IntentService</attr>
+	<remove-node path="/api/package[@name='com.squareup.leakcanary.internal']" />
+	
+<!--	<remove-node path="/api/package[@name='com.squareup.leakcanary']/class[@name='AbstractAnalysisResultService']" />
+	<remove-node path="/api/package[@name='com.squareup.leakcanary']/class[@name='ServiceHeapDumpListener']" />
+	<remove-node path="/api/package[@name='com.squareup.leakcanary']/class[@name='AndroidHeapDumper']" />
+	<remove-node path="/api/package[@name='com.squareup.leakcanary']/class[@name='AndroidHeapDumper.1']" />
+	<remove-node path="/api/package[@name='com.squareup.leakcanary']/class[@name='AndroidHeapDumper.3']" />
+	<remove-node path="/api/package[@name='com.squareup.leakcanary']/class[@name='AndroidHeapDumper.2']" />
+	<remove-node path="/api/package[@name='com.squareup.leakcanary']/class[@name='AndroidHeapDumper.2.1']" />
+	<remove-node path="/api/package[@name='com.squareup.leakcanary']/class[@name='AndroidDebuggerControl']" />
+-->
+	
+	  <attr path="/api/package[@name='com.squareup.leakcanary']/class[@name='LeakCanary']" name="managedName">BoundLeakCanary</attr>
+</metadata>
