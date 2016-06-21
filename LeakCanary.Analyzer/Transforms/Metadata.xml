@@ -7,4 +7,13 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+  <attr path="/api/package[@name='com.squareup.leakcanary']/class[@name='AnalysisResult']/method[@name='failure']" name="managedName">AnalysisResultFailure</attr>
+  <attr path="/api/package[@name='com.squareup.leakcanary']/class[@name='LeakTraceElement.Holder']" name="managedName">LeakTraceElementHolder</attr>
+  <attr path="/api/package[@name='com.squareup.leakcanary']/class[@name='LeakTraceElement.Type']" name="managedName">LeakTraceElementType</attr>
+  <attr path="/api/package[@name='com.squareup.leakcanary']/class[@name='LeakTraceElement.Holder']/field[@name='CLASS']" name="managedName">LeakTraceElementHolderClass</attr>
+
+  <!--<attr path="/api/package[@name='com.squareup.haha.perflib']/class[@name='HahaSpy']/method[@name='allocatingThread']" name="managedReturn">Java.Lang.Object</attr>-->
+  <remove-node path="/api/package[@name='com.squareup.haha.perflib']/class[@name='HahaSpy']/method[@name='allocatingThread']" />
+
 </metadata>
